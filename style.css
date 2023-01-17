@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+
+:root{
+    --StrongCyan: hsl(172, 67%, 45%);
+    --DarkGrayishCyan: hsl(186, 14%, 43%);
+    --GrayishCyan: hsl(184, 14%, 56%);
+    --LightGrayishCyan: hsl(185, 41%, 84%);
+    --VeryLightGrayishCyan: hsl(180, 5%, 89%);
+    --VeryDarkCyan: hsl(183, 100%, 15%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    background-color: var(--LightGrayishCyan);
+}
+
+h1{
+    color: var(--DarkGrayishCyan);
+    letter-spacing: 7px;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 24%;
+    height: 50vh;
+    width: 50vw;
+    background-color: var(--White);
+}
+
+#container #calc{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+
+#container #calc p{
+    color: var(--DarkGrayishCyan);
+}
+
+#container #calc #bill_Input{
+    background-image: url('./images/icon-dollar.svg');
+    background-position:3% 50%;
+    background-color: hsl(180, 5%, 89%);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0%;   
+    height: 10%;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+
+
+#container #calc #people_input{
+    background-image: url('./images/icon-person.svg');
+    background-position:3% 50%;
+    background-color: hsl(180, 5%, 89%);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0%;   
+    height: 10%;
+    width: 20vw;
+    border-radius: 5%;
+}
+
+/*! Response */
+
+#container #res{
+    color: var(--White);
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: var(--VeryDarkCyan);
+    width: 40%;
+}
+#container #res .p_title{
+    margin-top: 5vh;
+    margin-bottom: 0%;
+    width: 10vw;
+}
+
+#container #res p{
+    margin-left: 10%;
+}
+
+#container #res .p_gray{
+    margin-top: 0%;
+    color:var(--LightGrayishCyan);
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.numbers{
+    font-size: 38px;
+    margin-right: 2vw;
+    margin-top: 4.3vh;
+    color:var(--StrongCyan);
+}
+
+#container #res #button_reset{
+    border: none;
+    margin-top: 4vh;
+    border-radius: 5px;
+    background-color:var(--StrongCyan);
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
